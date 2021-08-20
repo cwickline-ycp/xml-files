@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/11.5">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:getPhone sequence="?">        
+         <name>Phone_Name</name>
+         <returnedTags ctiid="?" uuid="?">
+            <lines>
+               <line ctiid="?" uuid="?">
+                  <dirn uuid="?">
+                  </dirn>
+                  <e164Mask>?</e164Mask>
+
+               </line>
+            </lines>
+         </returnedTags>
+      </ns:getPhone>
+   </soapenv:Body>
+</soapenv:Envelope>

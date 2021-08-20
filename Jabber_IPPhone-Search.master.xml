@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/11.5">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:listPhone>
+         <searchCriteria>
+             <name>SEP%</name>
+            <description>%EXTEN_SION%</description>
+         </searchCriteria>
+         <returnedTags>
+            <name>?</name>
+         </returnedTags>
+      </ns:listPhone>
+   </soapenv:Body>
+</soapenv:Envelope>

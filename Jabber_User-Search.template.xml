@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/11.5">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:getUser sequence="?">
+         <userid>REG_USER_ID</userid>
+         <returnedTags uuid="?">
+            <firstName>?</firstName>
+            <displayName>?</displayName>
+            <lastName>?</lastName>
+            <userid>?</userid>
+            <associatedDevices>
+               <device>?</device>
+            </associatedDevices>
+         </returnedTags>
+      </ns:getUser>
+   </soapenv:Body>
+</soapenv:Envelope>

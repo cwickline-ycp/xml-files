@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/11.5">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:getDevicePool sequence="?">
+         <name>Devi_cePool</name>
+         <returnedTags uuid="?">
+         </returnedTags>
+      </ns:getDevicePool>
+   </soapenv:Body>
+</soapenv:Envelope>

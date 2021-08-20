@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/11.5">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:updateUser sequence="?">
+         <userid>User_ID</userid>
+         <associatedDevices>
+            <device>De_SEP_vice_Name</device>
+            <device>Jab_Name</device>
+            <device>Mob_Name</device>
+         </associatedDevices>
+         <userGroup>
+                     <name>Standard End User Jabber Profile</name>
+                     <userRoles>
+                        <userRole>Standard CCM End Users</userRole>
+                        <userRole>Standard CTI Allow Call Park Monitoring</userRole>
+                        <userRole>Standard CTI Allow Control of All Devices</userRole>
+                        <userRole>Standard CTI Allow Control of Phones supporting Connected Xfer and conf</userRole>
+                        <userRole>Standard CTI Enabled</userRole>
+                     </userRoles>
+                  </userGroup>
+         <homeCluster>true</homeCluster>
+         <imAndPresenceEnable>true</imAndPresenceEnable>
+         <serviceProfile uuid="{92495FEC-A880-44ED-9CEC-3ADCC80A7CFF}">UCServiceProfile_Migration_2</serviceProfile>
+      </ns:updateUser>
+   </soapenv:Body>
+</soapenv:Envelope>
