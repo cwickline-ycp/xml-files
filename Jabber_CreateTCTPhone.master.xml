@@ -6,6 +6,7 @@
             <name>TCT_User_Name</name>
             <description>Jabber iPhone - Desc_ption</description>
             <product>Cisco Dual Mode for iPhone</product>
+            <model>Cisco Dual Mode for iPhone</model>
             <class>Phone</class>
             <protocol>SIP</protocol>
             <protocolSide>User</protocolSide>
