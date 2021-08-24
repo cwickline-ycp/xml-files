@@ -1,122 +1,38 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/12.5">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <ns:addPhone sequence="?">
-         <phone ctiid="?">
-            <name>TCT_User_Name</name>
-            <description>Jabber iPhone - Desc_ption</description>
-            <product>Cisco Dual Mode for iPhone</product>
-            <model>Cisco Dual Mode for iPhone</model>
-            <class>Phone</class>
-            <protocol>SIP</protocol>
-            <protocolSide>User</protocolSide>
-            <callingSearchSpaceName uuid="{9E6C5FBE-EFED-4EA0-96D8-6599B5161611}">Admin</callingSearchSpaceName>
-            <devicePoolName uuid="Device_Pool_UUID">Device_Pool_Name</devicePoolName>
-            <commonDeviceConfigName uuid="{A3A597C0-1E86-B8D0-4212-EBD7A532785A">New - Default Configuration Profile</commonDeviceConfigName>
-            <commonPhoneConfigName uuid="{AC243D17-98B4-4118-8FEB-5FF2E1B781AC}">Standard Common Phone Profile</commonPhoneConfigName>
-            <networkLocation>Use System Default</networkLocation>
-            <locationName uuid="{29C5C1C4-8871-4D1E-8394-0B9181E8C54D}">Hub_None</locationName>
-            <mediaResourceListName uuid="61788A89-A8A5-7879-45DD-473748AF7188}">YCPNew_MRGL</mediaResourceListName>
-            <networkHoldMohAudioSourceId>3</networkHoldMohAudioSourceId>
-            <userHoldMohAudioSourceId>3</userHoldMohAudioSourceId>
-            <automatedAlternateRoutingCssName uuid="{9E6C5FBE-EFED-4EA0-96D8-6599B5161611}">Admin</automatedAlternateRoutingCssName>
-            <loadInformation special="false"></loadInformation>
-            <traceFlag>false</traceFlag>
-            <mlppIndicationStatus>Off</mlppIndicationStatus>
-            <preemption>Disabled</preemption>
-            <useTrustedRelayPoint>Default</useTrustedRelayPoint>
-            <retryVideoCallAsAudio>true</retryVideoCallAsAudio>
-            <securityProfileName uuid="{CCA09C7E-DE9C-4CFB-B9F3-D7ECB0ADFACF}">Cisco Unified Client Services Jabber Secured</securityProfileName>
-            <sipProfileName uuid="{4638F674-D0AC-C8F0-552E-F1E1574892DF}">Standard SIP Non-Secure Profile</sipProfileName>
-            <useDevicePoolCgpnTransformCss>true</useDevicePoolCgpnTransformCss>
-            <geoLocationName uuid="{E6648ED1-10D3-D83C-25B5-64F65FEEB00D}">York College of Pennsylvania</geoLocationName>
-            <sendGeoLocation>False</sendGeoLocation>
-            <lines>
-                  <line uuid="Line_UUID">
-                     <index>1</index>
-                     <label>Line_Label</label>
-                     <display>First_Last_Name</display>
-                     <dirn uuid="DID_REG}">
-                        <pattern>Extens_ion</pattern>
-                        <routePartitionName uuid="{BB064D3B-D7BC-412D-AA03-518A0C2AD088}">Campus</routePartitionName>
-                     </dirn>
-                     <ringSetting>Ring</ringSetting>
-                     <consecutiveRingSetting>Use System Default</consecutiveRingSetting>
-                     <ringSettingIdlePickupAlert/>
-                     <ringSettingActivePickupAlert/>
-                     <displayAscii>ASC_II</displayAscii>
-                     <e164Mask>External_Mask</e164Mask>
-                     <dialPlanWizardId/>
-                     <mwlPolicy>Use System Policy</mwlPolicy>
-                     <maxNumCalls>6</maxNumCalls>
-                     <busyTrigger>2</busyTrigger>
-                     <callInfoDisplay>
-                        <callerName>true</callerName>
-                        <callerNumber>false</callerNumber>
-                        <redirectedNumber>false</redirectedNumber>
-                        <dialedNumber>true</dialedNumber>
-                     </callInfoDisplay>
-                     <recordingProfileName/>
-                     <monitoringCssName/>
-                     <recordingFlag>Call Recording Disabled</recordingFlag>
-                     <audibleMwi>Default</audibleMwi>
-                     <speedDial/>
-                     <partitionUsage>General</partitionUsage>
-                     <associatedEndusers>
-                        <enduser>
-                           <userId>2User_Name</userId>
-                        </enduser>
-                     </associatedEndusers>
-                     <missedCallLogging>true</missedCallLogging>
-                     <recordingMediaSource>Gateway Preferred</recordingMediaSource>
-                  </line>
-               </lines>
-            <phoneTemplateName uuid="{8E1A10FA-A52C-4435-A4EC-540D266C8C37}">Standard Client Services Framework</phoneTemplateName>
-            <primaryPhoneName uuid="Primary_Phone_UUID">PrimaryPhone_Name</primaryPhoneName>
-             <ringSettingIdleBlfAudibleAlert>Default</ringSettingIdleBlfAudibleAlert>
-            <ringSettingBusyBlfAudibleAlert>Default</ringSettingBusyBlfAudibleAlert>
-            <userLocale>English United States</userLocale>
-            <networkLocale>United States</networkLocale>
-            <enableExtensionMobility>False</enableExtensionMobility>
-            <singleButtonBarge>Off</singleButtonBarge>
-            <joinAcrossLines>Off</joinAcrossLines>
-            <builtInBridgeStatus>Default</builtInBridgeStatus>
-            <callInfoPrivacyStatus>Default</callInfoPrivacyStatus>
-            <hlogStatus>Off</hlogStatus>
-            <ownerUserName uuid="US_ERNAME_UUID">3User_Name</ownerUserName>
-            <ignorePresentationIndicators>false</ignorePresentationIndicators>
-            <packetCaptureMode>None</packetCaptureMode>
-            <packetCaptureDuration>0</packetCaptureDuration>
-            <subscribeCallingSearchSpaceName uuid="{9E6C5FBE-EFED-4EA0-96D8-6599B5161611}">Admin</subscribeCallingSearchSpaceName>
-            <rerouteCallingSearchSpaceName uuid="{9E6C5FBE-EFED-4EA0-96D8-6599B5161611}">Admin</rerouteCallingSearchSpaceName>
-            <allowCtiControlFlag>true</allowCtiControlFlag>
-            <presenceGroupName uuid="{AD243D17-98B4-4118-8FEB-5FF2E1B781AC}">Standard Presence group</presenceGroupName>
-            <unattendedPort>false</unattendedPort>
-            <requireDtmfReception>false</requireDtmfReception>
-            <rfc2833Disabled>false</rfc2833Disabled>
-            <certificateOperation>No Pending Operation</certificateOperation>
-            <deviceMobilityMode>Default</deviceMobilityMode>
-            <remoteDevice>false</remoteDevice>
-            <dndOption>Ringer Off</dndOption>  
-            <dndStatus>false</dndStatus>
-            <isActive>true</isActive>
-            <isDualMode>false</isDualMode>
-            <mobilityUserIdName uuid="2USERNAME_UUID">4User_Name</mobilityUserIdName>
-            <phoneSuite>Default</phoneSuite>
-            <phoneServiceDisplay>Default</phoneServiceDisplay>
-            <isProtected>false</isProtected>
-            <mtpRequired>false</mtpRequired>
-            <mtpPreferedCodec>711ulaw</mtpPreferedCodec>
-            <digestUser>5User_Name</digestUser>
-            <outboundCallRollover>No Rollover</outboundCallRollover>
-            <hotlineDevice>false</hotlineDevice>
-            <alwaysUsePrimeLine>Default</alwaysUsePrimeLine>
-            <alwaysUsePrimeLineForVoiceMessage>Default</alwaysUsePrimeLineForVoiceMessage>
-            <deviceTrustMode>Not Trusted</deviceTrustMode>
-            <requireOffPremiseLocation>false</requireOffPremiseLocation>
-            <useDevicePoolCgpnIngressDN>true</useDevicePoolCgpnIngressDN>
-            <enableCallRoutingToRdWhenNoneIsActive>false</enableCallRoutingToRdWhenNoneIsActive>
-         </phone>
-      </ns:addPhone>
-   </soapenv:Body>
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns:addPhone sequence="?">
+            <phone ctiid="?">
+                <name>TCT_USER_NAME</name>
+                <description>Desc_ption</description>
+                <product>Cisco Dual Mode for iPhone</product>
+                <class>Phone</class>
+                <protocol>SIP</protocol>
+                <protocolSide>User</protocolSide>
+                <devicePoolName uuid="?">Jabber</devicePoolName>
+                <commonDeviceConfigName uuid="{4F3E1326-85AA-EEEF-B808-95DF1B238E48}">Default Common Device Configuration</commonDeviceConfigName>
+                <callingSearchSpaceName uuid="{9E6C5FBE-EFED-4EA0-96D8-6599B5161611}">Admin</callingSearchSpaceName>
+                <mediaResourceListName uuid="{B9E9CD13-4E38-4E61-B989-34FE075334F3}">YCPDefault-MRGL</mediaResourceListName>
+                <networkHoldMohAudioSourceId>3</networkHoldMohAudioSourceId>
+                <userHoldMohAudioSourceId>3</userHoldMohAudioSourceId>
+                <ownerUserName uuid="?">cwickline</ownerUserName>
+                <lines>
+                    <line ctiid="?">
+                        <index>1</index>
+                        <display>First_Last_Name</display>
+                        <displayAscii>First_Last_Name_ASCII</displayAscii>
+                        <dirn>
+                            <pattern>Extens_ion</pattern>
+                            <routePartitionName uuid="?">Campus</routePartitionName>
+                        </dirn>
+                        <associatedEndusers>
+                            <enduser>
+                                <userId>2User_Name</userId>
+                            </enduser>
+                        </associatedEndusers>
+                    </line>
+                </lines>
+            </phone>
+        </ns:addPhone>
+    </soapenv:Body>
 </soapenv:Envelope>
