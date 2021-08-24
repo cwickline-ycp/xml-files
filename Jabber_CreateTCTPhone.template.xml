@@ -3,8 +3,8 @@
     <soapenv:Body>
         <ns:addPhone sequence="?">
             <phone ctiid="?">
-                <name>TCTCWICKLINE</name>
-                <description>CWICKLINE iPhone</description>
+                <name>TCT_USER_NAME</name>
+                <description>Desc_ption</description>
                 <product>Cisco Dual Mode for iPhone</product>
                 <class>Phone</class>
                 <protocol>SIP</protocol>
@@ -19,15 +19,15 @@
                 <lines>
                     <line ctiid="?">
                         <index>1</index>
-                        <display>Chris Wickline</display>
-                        <displayAscii>Chris Wickline</displayAscii>
+                        <display>First_Last_Name</display>
+                        <displayAscii>First_Last_Name_ASCII</displayAscii>
                         <dirn>
-                            <pattern>6565</pattern>
+                            <pattern>Extens_ion</pattern>
                             <routePartitionName uuid="?">Campus</routePartitionName>
                         </dirn>
                         <associatedEndusers>
                             <enduser>
-                                <userId>cwickline</userId>
+                                <userId>2User_Name</userId>
                             </enduser>
                         </associatedEndusers>
                     </line>
