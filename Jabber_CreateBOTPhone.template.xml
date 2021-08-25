@@ -1,0 +1,38 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/12.5">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns:addPhone sequence="?">
+            <phone ctiid="?">
+                <name>TCT_USER_NAME</name>
+                <description>Desc_ption</description>
+                <product>Cisco Dual Mode for Android</product>
+                <class>Phone</class>
+                <protocol>SIP</protocol>
+                <protocolSide>User</protocolSide>
+                <devicePoolName uuid="?">Jabber</devicePoolName>
+                <commonDeviceConfigName uuid="{4F3E1326-85AA-EEEF-B808-95DF1B238E48}">Default Common Device Configuration</commonDeviceConfigName>
+                <callingSearchSpaceName uuid="{9E6C5FBE-EFED-4EA0-96D8-6599B5161611}">Admin</callingSearchSpaceName>
+                <mediaResourceListName uuid="{B9E9CD13-4E38-4E61-B989-34FE075334F3}">YCPDefault-MRGL</mediaResourceListName>
+                <networkHoldMohAudioSourceId>3</networkHoldMohAudioSourceId>
+                <userHoldMohAudioSourceId>3</userHoldMohAudioSourceId>
+                <ownerUserName uuid="?">cwickline</ownerUserName>
+                <lines>
+                    <line ctiid="?">
+                        <index>1</index>
+                        <display>First_Last_Name</display>
+                        <displayAscii>First_Last_Name_ASCII</displayAscii>
+                        <dirn>
+                            <pattern>Extens_ion</pattern>
+                            <routePartitionName uuid="?">Campus</routePartitionName>
+                        </dirn>
+                        <associatedEndusers>
+                            <enduser>
+                                <userId>2User_Name</userId>
+                            </enduser>
+                        </associatedEndusers>
+                    </line>
+                </lines>
+            </phone>
+        </ns:addPhone>
+    </soapenv:Body>
+</soapenv:Envelope>
