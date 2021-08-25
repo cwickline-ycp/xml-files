@@ -20,7 +20,7 @@
                     <line ctiid="?">
                         <index>1</index>
                         <display>First_Last_Name</display>
-                        <displayAscii>First_Last_Name_ASCII</displayAscii>
+                        <displayAscii>ASCI_First_Last_Name_ASCII</displayAscii>
                         <dirn>
                             <pattern>Extens_ion</pattern>
                             <routePartitionName uuid="?">Campus</routePartitionName>
