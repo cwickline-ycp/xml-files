@@ -3,7 +3,7 @@
     <soapenv:Body>
         <ns:addPhone sequence="?">
             <phone ctiid="?">
-                <name>TCT_USER_NAME</name>
+                <name>BOT_USER_NAME</name>
                 <description>Desc_ption</description>
                 <product>Cisco Dual Mode for Android</product>
                 <class>Phone</class>
@@ -15,16 +15,17 @@
                 <mediaResourceListName uuid="{B9E9CD13-4E38-4E61-B989-34FE075334F3}">YCPDefault-MRGL</mediaResourceListName>
                 <networkHoldMohAudioSourceId>3</networkHoldMohAudioSourceId>
                 <userHoldMohAudioSourceId>3</userHoldMohAudioSourceId>
-                <ownerUserName uuid="?">cwickline</ownerUserName>
+                <ownerUserName uuid="?">Owner_ID_1</ownerUserName>
                 <lines>
                     <line ctiid="?">
                         <index>1</index>
                         <display>First_Last_Name</display>
-                        <displayAscii>First_Last_Name_ASCII</displayAscii>
+                        <displayAscii>ASCI_FirstLast_Name_ASCII</displayAscii>
                         <dirn>
                             <pattern>Extens_ion</pattern>
                             <routePartitionName uuid="?">Campus</routePartitionName>
                         </dirn>
+                        <e164Mask>External_Mask</e164mask>
                         <associatedEndusers>
                             <enduser>
                                 <userId>2User_Name</userId>
