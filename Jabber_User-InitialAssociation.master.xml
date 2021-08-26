@@ -18,7 +18,7 @@
                   </userGroup>
          <homeCluster>true</homeCluster>
          <imAndPresenceEnable>true</imAndPresenceEnable>
-         <serviceProfile uuid="{92495FEC-A880-44ED-9CEC-3ADCC80A7CFF}">UCServiceProfile_Migration_2</serviceProfile>
+         <serviceProfile uuid="{0078198a-4aa0-c5d2-ebaa-2f905b9dd777}">UCServiceProfile_Default</serviceProfile>
       </ns:updateUser>
    </soapenv:Body>
 </soapenv:Envelope>
