@@ -3,9 +3,6 @@
    <soapenv:Body>
       <ns:updateUser sequence="?">
          <userid>User_ID</userid>
-         <associatedDevices>
-            <device>Device_Name</device>
-         </associatedDevices>
          <userGroup>
                      <name>Standard End User Jabber Profile</name>
                      <userRoles>
