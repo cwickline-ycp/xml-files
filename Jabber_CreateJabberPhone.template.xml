@@ -71,7 +71,6 @@
                   </line>
                </lines>
             <phoneTemplateName uuid="{8E1A10FA-A52C-4435-A4EC-540D266C8C37}">Standard Client Services Framework</phoneTemplateName>
-            <primaryPhoneName uuid="Primary_Phone_UUID">PrimaryPhone_Name</primaryPhoneName>
              <ringSettingIdleBlfAudibleAlert>Default</ringSettingIdleBlfAudibleAlert>
             <ringSettingBusyBlfAudibleAlert>Default</ringSettingBusyBlfAudibleAlert>
             <userLocale>English United States</userLocale>
