@@ -2,7 +2,7 @@
    <soapenv:Header/>
    <soapenv:Body>
       <ns:getLine sequence="?">
-         <pattern>1615</pattern>
+         <pattern>Ex_tension</pattern>
          <routePartitionName uuid="?">Campus</routePartitionName>
          <returnedTags uuid="?">
             <pattern>?</pattern>
