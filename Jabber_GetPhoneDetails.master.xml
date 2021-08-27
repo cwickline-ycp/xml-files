@@ -1,18 +1,15 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/12.5">
    <soapenv:Header/>
    <soapenv:Body>
-      <ns:getPhone sequence="?">        
-         <name>Phone_Name</name>
-         <returnedTags ctiid="?" uuid="?">
-            <lines>
-               <line ctiid="?" uuid="?">
-                  <dirn uuid="?">
-                  </dirn>
-                  <e164Mask>?</e164Mask>
-
-               </line>
-            </lines>
+      <ns:getLine sequence="?">
+         <pattern>1615</pattern>
+         <routePartitionName uuid="?">Campus</routePartitionName>
+         <returnedTags uuid="?">
+            <pattern>?</pattern>
+            <description>?</description>
+            <alertingName>?</alertingName>
+            <asciiAlertingName>?</asciiAlertingName>
          </returnedTags>
-      </ns:getPhone>
+      </ns:getLine>
    </soapenv:Body>
 </soapenv:Envelope>
