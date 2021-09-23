@@ -3,6 +3,7 @@
    <soapenv:Body>
       <ns:updateUser sequence="?">
          <userid>User_ID</userid>
+         <associatedGroup>
          <userGroup>
                      <name>Standard End User Jabber Profile</name>
                      <userRoles>
@@ -13,6 +14,7 @@
                         <userRole>Standard CTI Enabled</userRole>
                      </userRoles>
                   </userGroup>
+         </associatedGroup>
          <homeCluster>true</homeCluster>
          <imAndPresenceEnable>true</imAndPresenceEnable>
          <serviceProfile uuid="{0078198a-4aa0-c5d2-ebaa-2f905b9dd777}">UCServiceProfile_Default</serviceProfile>
